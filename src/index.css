@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+  .light {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+    --color-background: 233deg 11% 92%;
+    --color-listBackground: 0deg 0% 98%;
+    --color-content: 236deg 9% 61%;
+    --color-active: 220deg 98% 61%;
+    --color-hover: 235deg 24% 19%;
+    --color-darkBlue: 237deg 14% 26%;
+  }
+  .dark {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+    --color-background: 235deg 21% 11%;
+    --color-listBackground: 235deg 24% 19%;
+    --color-content: 233deg 11% 52%;
+    --color-hover: 236deg 33% 92%;
+    --color-active: 220deg 98% 61%;
+    --color-darkBlue: 237deg 14% 26%;
+  }
+}
+:root {
+    /* ### Dark Theme */
+    --Very-Dark-Blue: hsl(235, 21%, 11%);
+    --Very-Dark-Desaturated-Blue: hsl(235, 24%, 19%);
+    --Light-Grayish-Blue: hsl(234, 39%, 85%);
+    --Light-Grayish-Blue-hover: hsl(236, 33%, 92%);
+    --Dark-Grayish-Blue: hsl(234, 11%, 52%);
+    --Very-Dark-Grayish-Blue: hsl(233, 14%, 35%);
+    --Very-Dark-Grayish-Bluex: hsl(237, 14%, 26%);
+
+
+  --content: 236, 9%, 61%;
+  --active: 220, 98%, 61%;
+  
+    /* ### Neutral ### Light Theme */
+  --Very-Light-Gray: hsl(0, 0%, 98%);
+  --Very-Light-Grayish-Blue: hsl(236, 33%, 92%);
+  --Light-Grayish-Blue: hsl(233, 11%, 84%);
+  --Dark-Grayish-Blue: hsl(236, 9%, 61%);
+  --Very-Dark-Grayish-Blue: hsl(235, 19%, 35%);
+
+
+
+  /* ## Colors ## # Primary */
+  --Bright-Blue:-hsl(220, 98%, 61%);
+  --Check-Background: linear-gradient hsl(192, 100%, 67%) to hsl(280, 87%, 65%);
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  /* ## Colors ## # Primary */
+  --Bright-Blue:-hsl(220, 98%, 61%);
+  --Check-Background: linear-gradient hsl(192, 100%, 67%) to hsl(280, 87%, 65%);
+}
